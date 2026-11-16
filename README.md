@@ -10,13 +10,14 @@ Tell your AI assistant what you trade, for example:
 - "Show me stocks with elevated IV, no biotech."
 - "Earnings plays this week where the market is overpricing the move."
 
-It answers with:
+It answers with a short report, right in the chat:
 
+- **a name** for the scan and one line on what it finds
 - **the filters** to set and exactly what to type, in the order they appear in the terminal
 - **the columns** to show and **how to sort** them (highest to lowest, or lowest to highest)
 - **roughly how many tickers** to expect, and what to change if you get too many or too few
-- **a name** for the scan and **click-by-click steps** from New Scanner to Save
-- **checks to do before you trade**
+
+Ask for click-by-click setup steps or checks before you trade if you want them.
 
 You build the scan yourself in the terminal's Scanner; the assistant tells you how.
 
