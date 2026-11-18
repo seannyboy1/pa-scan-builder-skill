@@ -29,7 +29,16 @@ You build the scan yourself in the terminal's Scanner; the assistant tells you h
 2. Upload it to a new chat (or paste it in).
 3. Describe the trade you want to scan for.
 
-The file is about 155 KB. Use a current model with a large context window.
+The file is about 160 KB (roughly 40,000 tokens). That fits in current models, but use a
+current model rather than a small or free one.
+
+**Tip for ChatGPT:** ChatGPT sometimes searches an uploaded file instead of reading all of it,
+and can miss a rule. To avoid that, start your first message with:
+
+> Read the whole attached file before answering. Then: [your trade idea]
+
+The file also tells the assistant to read it in full, and repeats the most important rules at
+the very top.
 
 ### With Claude (as a skill)
 
